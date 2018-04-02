@@ -36,8 +36,9 @@ html {
   font-size: 14px;
 }
 
-.navbar-nav .active {
-  color: blue;
+ul {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .jumbotron-bike {
@@ -45,9 +46,69 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-shadow: 1px 1px black;
+}
+
+#main-title {
+  font-family: 'Monoton', cursive;
+  font-size: 7.1rem;
+  text-shadow: -1px -1px 0 #000,
+              1px -1px 0 #000,
+              -1px 1px 0 #000,
+              1px 1px 0 #000;
+}
+
+#main-container {
+  max-width: 51.3rem;
+  margin: 11.85rem auto;
+  text-align: center;
+  color: white;
+}
+
+#btn-main {
+  max-width: 11.4rem;
+  padding: 1.3rem auto;
+  margin-top: 2.8rem;
+}
+
+#thinking-title {
+  max-width: 42rem;
+  padding: 5.2rem 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#paragraph-special {
+  padding: 1.4rem 0;
+}
+
+.background-grey {
+  background-color: #f3f3f3;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+h3 {
+  font-size: 1.3rem;
 }
 
 .image-container {
-  
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 640px) {
+  #main-title {
+    font-size: 5.7rem;
+  }
 }
